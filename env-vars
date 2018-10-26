@@ -1,13 +1,8 @@
-export TF_VAR_tenancy_ocid=<ENTER YOU OCID>
-export TF_VAR_user_ocid=<ENTER YOU OCID>
-export TF_VAR_compartment_ocid=<ENTER YOU OCID>
-
-#export TF_VAR_fingerprint=$(openssl rsa -in ~/.oci/oci_api_key.pem -pubout -outform DER 2>/dev/null | openssl md5 -c | awk '{print $2}')
-#"openssl rsa -in ~/.oci/oci_api_key.pem -pubout -outform DER 2>/dev/null | openssl md5 -c | awk '{print $2}' > ~/.oci/oci_api_key_fingerprint"
-
-export TF_VAR_fingerprint=$(cat ~/.oci/oci_api_key_fingerprint)
-export TF_VAR_private_key_path=~/.oci/oci_api_key.pem
-export TF_VAR_ssh_public_key=$(cat ~/.ssh/id_rsa.pub)
-export TF_VAR_ssh_private_key=$(cat ~/.ssh/id_rsa)
-
+export TF_VAR_tenancy_ocid=<ENTER YOUR OCID>
+export TF_VAR_user_ocid=<ENTER YOUR OCID>
+export TF_VAR_compartment_ocid=<ENTER YOUR OCID>
+export TF_VAR_fingerprint=<Enter your fingerprint of public API key path/keyfilename>
+export TF_VAR_private_key_path=<Enter your private API key path/keyfilename>
+export TF_VAR_ssh_public_key=<Enter your public SSH key path/keyfilename>
+export TF_VAR_ssh_private_key=<Enter your private SSH key path/keyfilename>
 export TF_VAR_region=<ENTER REGION>
