@@ -11,7 +11,7 @@ variable "node_pool_initial_node_labels_value" {default = "value"}
 variable "node_pool_kubernetes_version" {default = "v1.11.5"}
 variable "node_pool_name" {default = "TutorialNodePool1"}
 variable "node_pool_node_image_name" {default = "Oracle-Linux-7.4"}
-variable "node_pool_node_shape" {default = "VM.Standard2.1"}
+variable "node_pool_node_shape" {default = "VM.Standard2.2"}
 variable "node_pool_quantity_per_subnet" {default = 1}
 variable "node_pool_ssh_public_key" {
   default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKtwbNDlpP5dLO6rf/KCL8RpiZdX+uKISlnKcuytkE8BhSmeZkRJjUpCM7QatZ6Gbsti7m+SayokY7uK/hx5AruurqYyYtThcZOT9LG9rVG18NGoTfsM7GtJtejQMiQcS+q/Rc3OExHfGn+zlQlJaNYu6H8nU1xxGSfUvew15Vsh6pq1m27XqKcr5YfgMqaVunvsI9V0CSrSDCstFHFVgf7av/5F62GBY6MZPrsk8w8ZEyFalZm+2Yw/DJutPePJOiJeXYJqn/k52FfeBmEIIexHckjTFPdXhEc2OVD95dcK2eGbGy9//yaUE58cVLkMdQboH6svjMG6xbY89N+TTv oracle@k8s-master"
