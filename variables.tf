@@ -18,7 +18,7 @@ variable user_ocid {
 }
 
 variable region {
-	default = "us-ashburn-1"
+	default = "eu-frankfurt-1"
 }
 
 

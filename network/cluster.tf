@@ -1,5 +1,5 @@
 # Start OKE variables: Please change
-variable "cluster_kubernetes_version" {default = "v1.11.1"}
+variable "cluster_kubernetes_version" {default = "v1.11.5"}
 variable "cluster_name" {default = "Tutorial1"}
 variable "availability_domain" {default = 3}
 variable "cluster_options_add_ons_is_kubernetes_dashboard_enabled" {default = true}
@@ -8,13 +8,13 @@ variable "cluster_options_kubernetes_network_config_pods_cidr" {default = "10.24
 variable "cluster_options_kubernetes_network_config_services_cidr" {default = "10.96.0.0/16"}
 variable "node_pool_initial_node_labels_key" {default = "key"}
 variable "node_pool_initial_node_labels_value" {default = "value"}
-variable "node_pool_kubernetes_version" {default = "v1.11.1"}
+variable "node_pool_kubernetes_version" {default = "v1.11.5"}
 variable "node_pool_name" {default = "TutorialNodePool1"}
 variable "node_pool_node_image_name" {default = "Oracle-Linux-7.4"}
 variable "node_pool_node_shape" {default = "VM.Standard2.1"}
 variable "node_pool_quantity_per_subnet" {default = 1}
 variable "node_pool_ssh_public_key" {
-  default = "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAgPfRQ8nGeFd39jdULiw/E0EDjelrdmMY6ToJYR5JOjfMe3iRQrYi3HevnGPS20haW0l9x6LAgwVS+K0+Xg9tFBVa+hvLX6CIocrnO8FlTUgN7zv6+eqz7IMsrrrHaNQDbKRpnZl8WS10Zo6WAPp6Dc4jntnFqVRG57NHJnUVyCDroqDERNkvp4Tn0t3UtCOhbyvfhXqxd0B3i1aDgsF3p9K2sauD6ge/RRnkLmSNkRSbOTyAd+ZYFS4uBse7Wue6ELI/7HAEolGEQEVR/kCdn9gf3slblNpkzYhq4jHFX02D/lC7+sbEY88KZWA/9kB73u8TTXFjVM0rx7WgnvSDuQ== CM_KEY"
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKtwbNDlpP5dLO6rf/KCL8RpiZdX+uKISlnKcuytkE8BhSmeZkRJjUpCM7QatZ6Gbsti7m+SayokY7uK/hx5AruurqYyYtThcZOT9LG9rVG18NGoTfsM7GtJtejQMiQcS+q/Rc3OExHfGn+zlQlJaNYu6H8nU1xxGSfUvew15Vsh6pq1m27XqKcr5YfgMqaVunvsI9V0CSrSDCstFHFVgf7av/5F62GBY6MZPrsk8w8ZEyFalZm+2Yw/DJutPePJOiJeXYJqn/k52FfeBmEIIexHckjTFPdXhEc2OVD95dcK2eGbGy9//yaUE58cVLkMdQboH6svjMG6xbY89N+TTv oracle@k8s-master"
 }
 # END OKE variables: Please change
 
